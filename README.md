@@ -1,0 +1,2 @@
+# argocd-projeto
+ArgoCD Projeto
