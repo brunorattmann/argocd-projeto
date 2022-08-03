@@ -11,8 +11,6 @@ spec:
       image: redis:3.0.5
       ports:
         - containerPort: 6379
-      volumeMounts:
-        - mountPath: "/usr/local/etc/"
-          name: "redis-conf"
+
 
    
