@@ -9,9 +9,6 @@ spec:
   containers:
     - name: redis
       image: redis:3.0.5
-      args:
-        - "redis-server"
-        - "/usr/local/etc/redis.conf"
       ports:
         - containerPort: 6379
       volumeMounts:
